@@ -14,19 +14,19 @@
 
 <p align="center" style="margin: -20px 0 30px">
    <a href="https://twitter.com/aralroca" target="_blank" style='margin-right:10px'>
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="twitter" height="18px" width="18px" />
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="twitter" height="22px" width="22px" />
   </a>
-  <small>  </small> 
+  ▫️ 
   <a href="https://stackoverflow.com/users/4467741/aral-roca" target="_blank" style='margin-right:10px'>
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="stackoverflow" height="18px" width="18px" />
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="stackoverflow" height="22px" width="22px" />
   </a>
-  <small>  </small> 
+  ▫️ 
   <a href="https://www.linkedin.com/in/aral-roca-gomez-3b536bb1/" target="_blank" style='margin-right:10px'>
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="linkedin" height="18px" width="18px" />
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="linkedin" height="22px" width="22px" />
   </a>
-  <small>  </small> 
+  ▫️ 
   <a href="mailto:contact@aralroca.com" target="_blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/protonmail.svg" alt="email" height="18px" width="18px" />
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/protonmail.svg" alt="email" height="22px" width="22px" />
   </a>
 </p>
 
@@ -53,11 +53,13 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 * [From Node to Deno](https://aralroca.com/blog/from-node-to-deno) 
 * [How to create pagination badges](https://aralroca.com/blog/pagination-badges)
 
-<small><a href="https://aralroca.us8.list-manage.com/subscribe/post?u=29d99171aa3f671bde658475a&id=9f1a0b31e3">👉 Subscribe to the newsletter</a></small>
+<a href="https://aralroca.us8.list-manage.com/subscribe/post?u=29d99171aa3f671bde658475a&id=9f1a0b31e3">
+  <table><tr><td>👉 Subscribe to the newsletter</td></tr></table>
+</a>
 
 <br />
 
-#### 💛 My passions
+#### 🧡 My passions
 
 * Technology and software
 * Science 
