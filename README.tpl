@@ -16,5 +16,5 @@
 </p>
 
 
-#### 📖 Latest articles I wrote on [aralroca.com](https://aralroca.com):
+#### 📖 Latest 5 articles I wrote on [aralroca.com](https://aralroca.com):
 %{{latest_articles}}%

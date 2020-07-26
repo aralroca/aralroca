@@ -31,15 +31,15 @@ fn get_latest_articles() -> String {
     let mut posts: Vec<FeedItem> = get_blog_rss();
 
     posts.sort_by(|a, b| {
-        let dateA = DateTime::parse_from_rfc2822(&a.pub_date).unwrap();
-        let dateB = DateTime::parse_from_rfc2822(&b.pub_date).unwrap();
+        let date_a = DateTime::parse_from_rfc2822(&a.pub_date).unwrap();
+        let date_b = DateTime::parse_from_rfc2822(&b.pub_date).unwrap();
 
-        if dateB < dateA { Ordering::Less } 
-        else if dateB > dateA { Ordering::Greater } 
+        if date_b < date_a { Ordering::Less } 
+        else if date_b > date_a { Ordering::Greater } 
         else { Ordering::Equal }
     });
 
-    return posts.iter().fold("".to_string(), |acc, item| {
+    return posts[..5].iter().fold("".to_string(), |acc, item| {
         format!("{} \n* [{}]({})", acc, item.title, item.link)
     });
 }
