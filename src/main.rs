@@ -1,19 +1,15 @@
 extern crate rss;
+extern crate chrono;
 
+use chrono::DateTime;
 use rss::Channel;
+use std::cmp::Ordering;
 use std::fs;
 
 struct FeedItem {
     title: String,
     link: String,
-    desc: String,
     pub_date: String,
-}
-
-fn print_item(item: &FeedItem) {
-    println!("{}", item.title);
-    println!("{}", item.link);
-    println!("");
 }
 
 fn get_blog_rss() -> Vec<FeedItem> {
@@ -24,7 +20,6 @@ fn get_blog_rss() -> Vec<FeedItem> {
         .map(|item| FeedItem {
             title: item.title().unwrap().to_string(),
             link: item.link().unwrap().to_string(),
-            desc: item.description().unwrap().to_string(),
             pub_date: item.pub_date().unwrap().to_string(),
         })
         .collect();
@@ -33,7 +28,16 @@ fn get_blog_rss() -> Vec<FeedItem> {
 }
 
 fn get_latest_articles() -> String {
-    let posts: Vec<FeedItem> = get_blog_rss();
+    let mut posts: Vec<FeedItem> = get_blog_rss();
+
+    posts.sort_by(|a, b| {
+        let dateA = DateTime::parse_from_rfc2822(&a.pub_date).unwrap();
+        let dateB = DateTime::parse_from_rfc2822(&b.pub_date).unwrap();
+
+        if dateB < dateA { Ordering::Less } 
+        else if dateB > dateA { Ordering::Greater } 
+        else { Ordering::Equal }
+    });
 
     return posts.iter().fold("".to_string(), |acc, item| {
         format!("{} \n* [{}]({})", acc, item.title, item.link)
