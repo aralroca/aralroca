@@ -1,5 +1,5 @@
-extern crate rss;
 extern crate chrono;
+extern crate rss;
 
 use chrono::DateTime;
 use rss::Channel;
@@ -34,9 +34,13 @@ fn get_latest_articles() -> String {
         let date_a = DateTime::parse_from_rfc2822(&a.pub_date).unwrap();
         let date_b = DateTime::parse_from_rfc2822(&b.pub_date).unwrap();
 
-        if date_b < date_a { Ordering::Less } 
-        else if date_b > date_a { Ordering::Greater } 
-        else { Ordering::Equal }
+        if date_b < date_a {
+            Ordering::Less
+        } else if date_b > date_a {
+            Ordering::Greater
+        } else {
+            Ordering::Equal
+        }
     });
 
     return posts[..5].iter().fold("".to_string(), |acc, item| {
@@ -44,17 +48,20 @@ fn get_latest_articles() -> String {
     });
 }
 
-fn create_readme() {
+fn create_readme() -> std::io::Result<()> {
     let tpl =
         fs::read_to_string("README.tpl").expect("Something went wrong reading the README.tpl file");
     let last_articles = get_latest_articles();
 
-    fs::write(
+    return fs::write(
         "README.md",
         tpl.replace("%{{latest_articles}}%", &last_articles),
     );
 }
 
 fn main() {
-    create_readme();
+    match create_readme() {
+        Ok(_v) => println!("README.md file generated correctly"),
+        Err(e) => println!("Opps! there was an error: {:?}", e),
+    }
 }
