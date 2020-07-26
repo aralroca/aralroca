@@ -1,4 +1,4 @@
-# Hi, I'm Aral Roca 👋
+# Hi, I'm Aral Roca
 
 <div align="right">
   <a href="https://aralroca.com/donate">
@@ -47,7 +47,7 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 <small style="margin-left: 25px"><a href="https://aralroca.us8.list-manage.com/subscribe/post?u=29d99171aa3f671bde658475a&id=9f1a0b31e3">👉 Subscribe to the newsletter</a></small>
 
-<h4 style="margin-top: 30px">🧡 My passions</h4>
+<h4 style="margin-top: 30px">💛 My passions</h4>
 
 * Technology and software
 * Science 

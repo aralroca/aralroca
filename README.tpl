@@ -1,4 +1,4 @@
-# Hi, I'm Aral Roca 👋
+# Hi, I'm Aral Roca
 
 <div align="right">
   <a href="https://aralroca.com/donate">
