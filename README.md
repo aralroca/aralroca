@@ -29,15 +29,20 @@
 
 I'm a Full-Stack developer who likes to work with JavaScript/Typescript (Preact, Next.js, TensorFlow.js, Node, Deno) Rust, Python among others. 
 
-<div align="center" style="margin: 30px 0">
+<div align="center">
+  <br />
   <img width="" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aralroca&layout=compact&hide_title=1&card_width=300" alt="Top language used in my repos" />
   <br />
   <small>Languages used in my public repos - big fan of JavaScript 😛</small>
+  <br />
+  <br />
 </div>
 
 A few years ago I realized that I wanted to focus my efforts on being useful. For this reason, I'm trying to contribute more and more to open-source projects, helping people on Discus, StackOverflow, Spectrum, Github discussions... and creating useful content to be used by developers: libraries and articles. 
 
-<h4 style="margin-top: 30px">📖 <a href="https://aralroca.com">aralroca.com</a>: Last 5 articles<h4>
+<br />
+
+#### 📖 [aralroca.com](https://aralroca.com): Last 5 articles
  
 * [First steps in WebGL](https://aralroca.com/blog/first-steps-in-webgl) 
 * [Image classifier: in the browser](https://aralroca.com/blog/cat-dog-classifier) 
@@ -45,9 +50,11 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 * [From Node to Deno](https://aralroca.com/blog/from-node-to-deno) 
 * [How to create pagination badges](https://aralroca.com/blog/pagination-badges)
 
-<small style="margin-left: 25px"><a href="https://aralroca.us8.list-manage.com/subscribe/post?u=29d99171aa3f671bde658475a&id=9f1a0b31e3">👉 Subscribe to the newsletter</a></small>
+<small><a href="https://aralroca.us8.list-manage.com/subscribe/post?u=29d99171aa3f671bde658475a&id=9f1a0b31e3">👉 Subscribe to the newsletter</a></small>
 
-<h4 style="margin-top: 30px">💛 My passions</h4>
+<br />
+
+#### 🧡 My passions
 
 * Technology and software
 * Science 
