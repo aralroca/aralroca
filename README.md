@@ -62,13 +62,15 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 * Books ([goodreads](https://www.goodreads.com/user/show/32447157-aral-roca-gomez))
 * Parkour ([instagram](https://www.instagram.com/aralroca/), [youtube](http://youtube.com/aralroca))
 * Nutrition
-* Nature and animals
+* Nature
 
-<table align="right">
-    <tr>
-        <td>
-          <a href="https://aralroca.us8.list-manage.com/subscribe/post?u=29d99171aa3f671bde658475a&id=9f1a0b31e3">👉 Subscribe to the newsletter
-          </a>
-        </td>
-    </tr>
-</table>
+<br />
+<a href="https://aralroca.us8.list-manage.com/subscribe/post?u=29d99171aa3f671bde658475a&id=9f1a0b31e3">
+  <table align="right">
+      <tr>
+          <td>
+            👉 Subscribe to the newsletter
+          </td>
+      </tr>
+  </table>
+</a>
