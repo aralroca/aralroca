@@ -1,0 +1,28 @@
+name: Rust
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    - cron: "0 0 */1 * *"
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      run: cargo build --verbose
+    - run: |
+        git config user.name aralroca
+        git config user.email aral-rg@hotmail.com
+        git add README.md
+        git diff --quiet && git diff --staged --quiet || git commit -m "[gh-action] Update README"
+        git push origin master
