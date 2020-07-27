@@ -54,7 +54,7 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 <br />
 
-#### 💛 My passions
+#### 🧡 My passions
 
 * Technology and software
 * Science 
