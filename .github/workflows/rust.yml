@@ -2,7 +2,7 @@ name: Rust
 
 on:
   schedule:
-    - cron: "0 0 */1 * *"
+    - cron: "0 */1 * * *"
 
 env:
   CARGO_TERM_COLOR: always
@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: cargo build --verbose
+      run: cargo run
     - run: |
         git config user.name aralroca
         git config user.email aral-rg@hotmail.com
