@@ -14,7 +14,7 @@ struct FeedItem {
 
 pub fn create_readme() -> std::io::Result<()> {
     let tpl =
-        fs::read_to_string("README.tpl").expect("Something went wrong reading the README.tpl file");
+        fs::read_to_string("README.md.tpl").expect("Something went wrong reading the README.tpl file");
     let last_articles = get_latest_articles();
 
     return fs::write(
