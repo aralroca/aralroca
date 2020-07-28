@@ -44,7 +44,7 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 <br />
 
-#### 📖 [aralroca.com](https://aralroca.com): Last 5 articles
+#### 📖  [aralroca.com](https://aralroca.com): Last 5 articles
  
 * [First steps in WebGL](https://aralroca.com/blog/first-steps-in-webgl) 
 * [Image classifier: in the browser](https://aralroca.com/blog/cat-dog-classifier) 
@@ -54,7 +54,7 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 <br />
 
-#### 🧡 My passions
+#### 🧡  My passions
 
 * Technology and software
 * Science 
@@ -69,7 +69,7 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
   <table align="right">
       <tr>
           <td>
-            👉 Subscribe to the newsletter
+            👉  Subscribe to the newsletter
           </td>
       </tr>
   </table>
