@@ -46,11 +46,11 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 #### 📖  [aralroca.com](https://aralroca.com): Last 5 articles
  
+* [Static Readme Regeneration](https://aralroca.com/blog/static-readme-regeneration) 
 * [First steps in WebGL](https://aralroca.com/blog/first-steps-in-webgl) 
 * [Image classifier: in the browser](https://aralroca.com/blog/cat-dog-classifier) 
 * [Discovering Snowpack](https://aralroca.com/blog/discovering-snowpack) 
-* [From Node to Deno](https://aralroca.com/blog/from-node-to-deno) 
-* [How to create pagination badges](https://aralroca.com/blog/pagination-badges)
+* [From Node to Deno](https://aralroca.com/blog/from-node-to-deno)
 
 <br />
 
