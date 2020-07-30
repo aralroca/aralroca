@@ -44,12 +44,12 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 <br />
 
-#### 📖  [aralroca.com](https://aralroca.com): Last 5 articles
+#### 📖 &nbsp;[aralroca.com](https://aralroca.com): Last 5 articles
 %{{latest_articles}}%
 
 <br />
 
-#### 🧡  My passions
+#### 🧡 &nbsp;My passions
 
 * Technology and software
 * Science 
@@ -64,7 +64,7 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
   <table align="right">
       <tr>
           <td>
-            👉  Subscribe to the newsletter
+            👉 &nbsp;Subscribe to the newsletter
           </td>
       </tr>
   </table>
