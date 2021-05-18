@@ -46,11 +46,11 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 #### 📖 &nbsp;&nbsp;[aralroca.com](https://aralroca.com): Last 5 articles
  
-* [Labelai - speed up training your AI models with a free open source app](https://aralroca.com/blog/labelai) 
+* [Virtual Sommelier, text classifier in the browser](https://aralroca.com/blog/food-pairing-classifier) 
+* [Next-translate - Version 1.0 Released](https://aralroca.com/blog/next-translate-1.0) 
+* [Etiketai - speed up training your AI models with a free open source app](https://aralroca.com/blog/etiketai) 
 * [GitHub action to publish your blog post to dev.to](https://aralroca.com/blog/ghaction-devto) 
-* [Do all roads lead to Rome?](https://aralroca.com/blog/do-all-roads-lead-to-rome) 
-* [First steps with WebAssembly in Rust](https://aralroca.com/blog/first-steps-webassembly-rust) 
-* [How to draw gears in WebGL](https://aralroca.com/blog/how-to-draw-gears-in-webgl)
+* [Do all roads lead to Rome?](https://aralroca.com/blog/do-all-roads-lead-to-rome)
 
 <br />
 
