@@ -46,11 +46,11 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 #### 📖 &nbsp;&nbsp;[aralroca.com](https://aralroca.com): Last 5 articles
  
+* [Creating Scalable and Reusable React Components](https://aralroca.com/blog/creating-scalable-and-reusable-react-components) 
 * [🏝️ i18n translations in Next.js 13's app-dir for server/client components 🌊](https://aralroca.com/blog/i18n-translations-nextjs-13-app-dir) 
 * [Teaful DevTools Released!](https://aralroca.com/blog/teaful-devtools) 
 * [Teaful: tiny, easy and powerful React state management](https://aralroca.com/blog/teaful) 
-* [React state with a fragmented store](https://aralroca.com/blog/react-fragmented-store) 
-* [Virtual Sommelier, text classifier in the browser](https://aralroca.com/blog/food-pairing-classifier)
+* [React state with a fragmented store](https://aralroca.com/blog/react-fragmented-store)
 
 <br />
 
