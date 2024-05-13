@@ -1,7 +1,7 @@
 # Hi, I'm Aral Roca
 
 <div align="right">
-  <a href="https://aralroca.com/donate">
+  <a href="https://aralroca.com/thanks">
     <img src="https://img.shields.io/badge/$-support-ff69b4.svg?style=flat" alt="Donate" />
   </a>
 </div>
