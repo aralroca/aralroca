@@ -46,8 +46,8 @@ A few years ago I realized that I wanted to focus my efforts on being useful. Fo
 
 #### 📖 &nbsp;&nbsp;[aralroca.com](https://aralroca.com): Last 5 articles
  
-* [SPA-Like Navigation Preserving Web Component State](https://aralroca.com/blog/spa-navigation) 
 * [HTML Streaming Over the Wire 🥳: A Deep Dive](https://aralroca.com/blog/html-streaming-over-the-wire) 
+* [SPA-Like Navigation Preserving Web Component State](https://aralroca.com/blog/spa-navigation) 
 * [Power of Partial Prerendering with Bun](https://aralroca.com/blog/partial-prerendering) 
 * [HTML Streaming and DOM Diffing Algorithm](https://aralroca.com/blog/html-node-streaming) 
 * [👋 Say Goodbye to Spread Operator: Use Default Composer](https://aralroca.com/blog/default-composer)
