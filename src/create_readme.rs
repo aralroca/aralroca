@@ -1,6 +1,3 @@
-extern crate chrono;
-extern crate rss;
-
 use chrono::DateTime;
 use rss::Channel;
 use std::cmp::Ordering;
@@ -17,10 +14,10 @@ pub fn create_readme() -> std::io::Result<()> {
         fs::read_to_string("README.md.tpl").expect("Something went wrong reading the README.tpl file");
     let last_articles = get_latest_articles();
 
-    return fs::write(
+    fs::write(
         "README.md",
         tpl.replace("%{{latest_articles}}%", &last_articles),
-    );
+    )
 }
 
 fn get_latest_articles() -> String {
@@ -39,14 +36,21 @@ fn get_latest_articles() -> String {
         }
     });
 
-    return posts[..5].iter().fold("".to_string(), |acc, item| {
+    posts[..5].iter().fold("".to_string(), |acc, item| {
         format!("{} \n* [{}]({})", acc, item.title, item.link)
-    });
+    })
 }
 
 fn get_blog_rss() -> Vec<FeedItem> {
-    let items = Channel::from_url("https://aralroca.com/rss.xml")
-        .unwrap()
+    let content = reqwest::blocking::get("https://aralroca.com/rss.xml")
+        .expect("Failed to fetch RSS feed")
+        .bytes()
+        .expect("Failed to read response body");
+
+    let channel = Channel::read_from(&content[..])
+        .expect("Failed to parse RSS feed");
+
+    channel
         .items()
         .iter()
         .map(|item| FeedItem {
@@ -54,7 +58,5 @@ fn get_blog_rss() -> Vec<FeedItem> {
             link: item.link().unwrap().to_string(),
             pub_date: item.pub_date().unwrap().to_string(),
         })
-        .collect();
-
-    items
+        .collect()
 }
